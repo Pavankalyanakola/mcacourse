@@ -10,7 +10,7 @@ const pdfs={
     "Computer Oriented Operations Research":'./pdfs/2nd Semester/201 Computer Oriented Operations Research.pdf',
     "Data Structures Using Java":'./pdfs/2nd Semester/202 Data Structures using Java.pdf',
     "Data Communication And Computer Networks":'./pdfs/2nd Semester/203 Data Communication and Computer Networks.pdf',
-    "Advanced Database Management Systems":'https://drive.google.com/file/d/1rmWoWtBMwiFNpmJgfvDLBjlqmPSaqMLd/preview?usp=share_link',
+    "Advanced Database Management Systems":'./pdfs/2nd Semester/204 Advanced database management system.pdf',
     "A. E-Commerce":'./pdfs/2nd Semester/205A  E-Commerce.pdf',
     "B. Cyber Security":'./pdfs/2nd Semester/205B Cyber Security.pdf',
     "C. Neural Networks":'./pdfs/2nd Semester/205C  Neural Networks.pdf',
