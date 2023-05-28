@@ -4,9 +4,7 @@ const subjects={
         "Computer Organization",
         "Operating Systems",
         "Accounting or Financial Management",
-        "Software Lab I",
-        "Object Oriented Programming lab",
-        "Operating System Lab"
+       
     ],
     "II semester":[
         "Computer Oriented Operations Research",
@@ -14,9 +12,7 @@ const subjects={
         "Data Communication And Computer Networks",
         "Advanced Database Management Systems",
         "A. E-Commerce","B. Cyber Security","C. Neural Networks",
-        "Software Lab II",
-        "Data Structures Lab",
-        "Advanced Database Management Systems Lab"
+       
     ],
     "III semester":[
         "Software Engineering",
@@ -24,9 +20,7 @@ const subjects={
         "Web Technologies",
         "A. Data Warehouse and Data Mining"," B. Data Analytics","C. System Programming",
         "A. Cryptography and Network Security","B. Artificial Intelligence","C. Moblie Application Development",
-        "Open Elective",
-        "Software Lab III",
-        "Web Technologies Lab"
+        
     ],
     "IV semester":[
         "A. Cloud Computing","B. Dot Net Technologies","C. Software Testing",
