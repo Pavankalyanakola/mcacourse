@@ -5,9 +5,7 @@
     background-color: black;
     height: 100vh;
     width: 100vw;
-}
-.background-img{
-    margin: auto;
+
 }
 .homepage-card-text{
     background-color: rgb(2, 2, 105);
@@ -40,6 +38,7 @@ nav{
     position: fixed;
     display: flex;
     justify-content: space-between;
+    border: 2px solid white;
     height: 70px;
     background-color: maroon;
     width: 100vw;
@@ -52,6 +51,7 @@ nav{
     margin: auto 3px;
 }
 .nav-links{
+    align-items: center;
     display: flex;
     justify-content: space-between;
     width: 340px;
@@ -64,5 +64,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 4px;
+    gap: 3px;
+    
 }
