@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 .homepage-container{
     background-size: cover;
     background-position: center;
@@ -30,11 +36,11 @@
     text-decoration: none;
 }
 .margin{
-    margin: 15px;
+    margin: 30px;
 }
-.background-img{
-    margin: 20vh 35vh;
-}
+/* .background-img{
+    margin: 30% 12%;
+} */
 
 /* navbar */
 body{
@@ -74,4 +80,15 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 3px;
+}
+@media(max-width: 586px){
+    .background-img{
+        margin: 30% 12%;
+    }
+}
+@media(min-width: 586px){
+    .background-img{
+        margin: 10% 37%;
+    }
+    
 }
