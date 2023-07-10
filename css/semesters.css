@@ -4,7 +4,7 @@
     background: linear-gradient(yellow,lightblue);
     background-size: cover;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 .semesters-card{
     background-color: black;
