@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
-.subject-home{
-    background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=826&t=st=1680079523~exp=1680080123~hmac=55560e61c87aee48e3a2fd8c12f13a53eba74876ed732964e8d49afa9fe88dff");
-    background-size: cover;
-    min-height: 100vh;
-    background-position: center;
-}
+
 .subject-card{
     color: white;
     background-color:black;
@@ -39,9 +34,29 @@
     text-decoration: none;
 }
 .semester-heading{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-weight: bold;
     font-size: 60px;
 }
-
+@media(max-width: 586px){
+    .subject-home{
+        background: linear-gradient(yellow,lightblue);
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(min-width: 586px){
+    .subject-home{
+        background: linear-gradient(yellow,lightblue);
+        width: 1300px;
+        height: 100%;
+    }   
+}
+@media(max-width: 1200px){
+    .subject-home{
+        background: linear-gradient(yellow,lightblue);
+        width: 100%;
+        height: 100%;
+    }
+}
