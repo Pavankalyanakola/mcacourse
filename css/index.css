@@ -7,7 +7,7 @@
     width: 100vw;
 }
 .background-img{
-    margin: 30vh auto;
+    margin: auto;
 }
 .homepage-card-text{
     background-color: rgb(2, 2, 105);
@@ -39,7 +39,6 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    border: 2px solid black;
     height: 70px;
     background-color: maroon;
 }
