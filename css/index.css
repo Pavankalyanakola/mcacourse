@@ -65,5 +65,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 3px;
-    
+}
+.background-img{
+    margin: 20vh 35vh;
 }
