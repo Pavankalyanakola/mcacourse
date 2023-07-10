@@ -38,7 +38,6 @@ nav{
     position: fixed;
     display: flex;
     justify-content: space-between;
-    border: 2px solid white;
     height: 70px;
     background-color: maroon;
     width: 100vw;
