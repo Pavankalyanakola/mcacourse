@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
-.semesters-background{
-    /* background-image: url("https://img.freepik.com/premium-photo/microprocessor-chipset-central-processor-unit-illumination-circuit_34645-889.jpg?w=900"); */
-    background: linear-gradient(yellow,lightblue);
-    background-size: cover;
-    height: 100vh;
+body{
     width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 .semesters-card{
     background-color: black;
@@ -15,7 +14,9 @@
     text-align: center;
     text-decoration: none;
     border-radius: 23px;
-    
+}
+.sem-text{
+    text-decoration: none;
 }
 .semesters-button12{
     color: black;
@@ -29,4 +30,27 @@
     text-decoration: none;
 }
 
-
+@media(max-width: 586px){
+    .semesters-background{
+        position: fixed;
+        background: linear-gradient(yellow,lightblue);
+        width: 100%;
+        height: 662px;
+    }
+}
+@media(min-width: 586px){
+    .semesters-background{
+        position: fixed;
+        background: linear-gradient(yellow,lightblue);
+        width: 1300px;
+        height: 100vh;
+    }   
+}
+@media(max-width: 1200px){
+    .semesters-background{
+        position: fixed;
+        background: linear-gradient(yellow,lightblue);
+        width: 100%;
+        height: 662px;
+    }
+}
