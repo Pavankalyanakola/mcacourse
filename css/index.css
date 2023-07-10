@@ -49,6 +49,7 @@ nav{
     margin: auto 3px;
 }
 .nav-links{
+    position: fixed;
     display: flex;
     justify-content: space-between;
     width: 340px;
