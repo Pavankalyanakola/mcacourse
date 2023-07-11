@@ -56,7 +56,7 @@ nav{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    width: 340px;
+    width: 200px;
     font-weight: bold;
     margin-right: 25px;
 }
@@ -68,6 +68,10 @@ nav{
     align-items: center;
     gap: 3px;
 }
+.nav-title{
+    color: white;
+}
+
 
 @media(max-width: 586px){
     .background-img{
