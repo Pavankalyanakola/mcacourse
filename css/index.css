@@ -75,7 +75,7 @@ nav{
 .nav-title{
     color: whitesmoke;
     width: 30%;
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
     height: 80%;
     margin: auto;
@@ -96,8 +96,8 @@ nav{
     }
     .nav-title{
          color: whitesmoke;
-        width: 35%;
-        font-size: 11px;
+        width: 30%;
+        font-size: 5px;
         text-align: center;
         height: 80%;
         margin: auto;
