@@ -29,7 +29,7 @@ body{
 .margin{
     margin: 30px;
 }
-/* navbar */
+/* _____________navbar_______________ */
 body{
     height: 100vh;
     width: 100vw;
@@ -77,24 +77,11 @@ nav{
     height: 80%;
     margin: auto;
 }
-
-
 @media(max-width: 586px){
-    .background-img{
-        width: 80%;
-        height: 80%;
-        margin: 20px auto;
-    }
-    .homepage-container{
-        position: fixed;
-        background-color: rgb(0, 0, 0);
-        width: 100%;
-        height: 662px;
-    }
     .nav-title{
         color: whitesmoke;
         width: 35%;
-        font-weight: lighter;
+        font-weight: 5px;
         text-align: center;
         height: 80%;
         margin: auto;
@@ -108,6 +95,20 @@ nav{
     justify-content: space-between;
     width: 50%;
     font-weight: bold;
+    }
+}
+/* _____________navbar_______________ */
+@media(max-width: 586px){
+    .background-img{
+        width: 80%;
+        height: 80%;
+        margin: 20px auto;
+    }
+    .homepage-container{
+        position: fixed;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 662px;
     }
 }
 @media(min-width: 586px){
