@@ -56,9 +56,8 @@ nav{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 50%;
     font-weight: bold;
-    margin-right: 25px;
 }
 .link{
     color: white;
@@ -66,10 +65,20 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3px;
+}
+.link-margin{
+    margin-right: 20px;
+}
+.title-margin{
+    margin-left: 5px;
 }
 .nav-title{
-    color: white;
+    color: whitesmoke;
+    width: 30%;
+    font-size: 13px;
+    text-align: center;
+    height: 80%;
+    margin: auto;
 }
 
 
