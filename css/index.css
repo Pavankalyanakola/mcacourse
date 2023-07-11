@@ -99,6 +99,16 @@ nav{
         height: 80%;
         margin: auto;
     }
+    .nav-logo{
+        width: 20%;
+    }
+    .nav-links{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-weight: bold;
+    }
 }
 @media(min-width: 586px){
     .background-img{
