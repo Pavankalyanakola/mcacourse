@@ -94,6 +94,7 @@ nav{
     .nav-title{
         color: whitesmoke;
         width: 35%;
+        font-weight: lighter;
         text-align: center;
         height: 80%;
         margin: auto;
