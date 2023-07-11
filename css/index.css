@@ -92,15 +92,14 @@ nav{
         height: 662px;
     }
     .nav-title{
-         color: whitesmoke;
-        width: 30%;
-        font-size: 5px;
+        color: whitesmoke;
+        width: 35%;
         text-align: center;
         height: 80%;
         margin: auto;
     }
     .nav-logo{
-        width: 20%;
+        width: 15%;
     }
     .nav-links{
     align-items: center;
