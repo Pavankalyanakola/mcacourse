@@ -35,7 +35,7 @@ body{
         position: fixed;
         background: linear-gradient(yellow,lightblue);
         width: 100%;
-        height: 662px;
+        height: 100%;
     }
 }
 @media(min-width: 586px){
@@ -43,7 +43,7 @@ body{
         position: fixed;
         background: linear-gradient(yellow,lightblue);
         width: 1300px;
-        height: 100vh;
+        height: 100%;
     }   
 }
 @media(max-width: 1200px){
@@ -51,6 +51,6 @@ body{
         position: fixed;
         background: linear-gradient(yellow,lightblue);
         width: 100%;
-        height: 662px;
+        height: 100%;
     }
 }
