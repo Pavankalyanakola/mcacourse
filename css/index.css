@@ -67,10 +67,7 @@ nav{
     align-items: center;
 }
 .link-margin{
-    margin-right: 20px;
-}
-.title-margin{
-    margin-left: 5px;
+    margin: auto 10%;
 }
 .nav-title{
     color: whitesmoke;
